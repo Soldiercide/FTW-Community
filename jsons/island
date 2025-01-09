@@ -1,14 +1,3 @@
-MOTD
-
-OPEN THE INFORMATION PANEL
-The information panel contains important information, rules, settings, and the online players list.  To access the information panel, do the following
-Press F1 on PC
-Hold X on Xbox
-Hold □ on PSN
-
-JSON
-
-
 {
 	"WBUI2":
 	{
@@ -17,7 +6,7 @@ JSON
 			"openbutton": 0,
 			"hideicon": true,
 			"hideiconafter": 60,
-			"iconurl": "://i.imgur.com/OZ6xOjY.png",
+			"iconurl": "1",
 			"disableicontext": true,
 			"iconposition": 0,
 			"icontextcolor": 0,
@@ -27,7 +16,7 @@ JSON
 		},
 		"tabs": [
 			{
-				"layout": 3,
+				"layout": 4,
 				"buttontext": "Start Here",
 				"imageurl": "",
 				"content": [
@@ -40,8 +29,12 @@ JSON
 						"text": "<RichColor Color=\"1, 1, 0, 0.65\">Structure and Dino Decay</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">Decay on this cluster is controlled by the </><RichColor Color=\"0, 0.65, 1, 1\">Massive Base Protection</> <RichColor Color=\"1, 1, 1, 1\">mod.  In order to safeguard your base, outpost, and water pen you must place</> <RichColor Color=\"0, 0.65, 1, 1\">Massive Base Protection Flags</> <RichColor Color=\"1, 1, 1, 1\">down at each.</>  <RichColor Color=\"1, 1, 1, 1\">If you do not, your structures and dinos will be</> <RichColor Color=\"0, 0.65, 1, 1\">wiped in 7 days</>.  <RichColor Color=\"1, 1, 1, 1\">MBP flags cost 1 fiber to craft.</>\r\n\r\n<RichColor Color=\"1, 1, 0, 0.65\">Base Location Tracking</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">In addition to the MBP flags, you must also place a single </><RichColor Color=\"0, 0.65, 1, 1\">Location Flag</> <RichColor Color=\"1, 1, 1, 1\">at your base, outpost, and water pen.  This information is displayed on live maps for each server found in the Cluster Info category on Discord.  It helps admins with server management and let's players find each other easier.  Location flags cost 1 fiber to craft.</>"
 					},
 					{
-						"title": "STARTER KITS",
-						"text": "<RichColor Color=\"1, 1, 1, 1\">You can acquire a starter kit by transferring over to</> <RichColor Color=\"0.65, 0, 1, 1\">!Ark FTW-Community Center</>.  <RichColor Color=\"1, 1, 1, 1\">Once there, do the following:</>\r\n\r\n     <RichColor Color=\"1, 1, 0, 0.65\">[PC]</>       <RichColor Color=\"1, 1, 0, 0.65\">[Xbox]</>      <RichColor Color=\"1, 1, 0, 0.65\">[PSN]</>\r\n<RichColor Color=\"1, 1, 1, 1\">Press F3</> | <RichColor Color=\"1, 1, 1, 1\">Press X</> | <RichColor Color=\"1, 1, 1, 1\">Press □</>\r\n\r\n"
+						"title": "Play Time Rewards",
+						"text": "<RichColor Color=\"1, 1, 1, 1\">The system is fairly simple: you receive 10 copper coins directly to your inventory for every real-time hour of play.  Those coins can then be spent in the </><RichColor Color=\"0, 0.65, 1, 1\">New Player Shop</><RichColor Color=\"1, 1, 1, 1\">, or elsewhere in the market</>\r\n"
+					},
+					{
+						"title": "New Player Shop",
+						"text": "<RichColor Color=\"1, 1, 1, 1\">The shop contains an assortment of early-game items that will assist you in getting started.  Each item can only be purchased once, and is only purchasable with the copper coins you earn through the</> <RichColor Color=\"0, 0.65, 1, 1\">Play Time Rewards</>.\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">To access the market and the </><RichColor Color=\"0, 0.65, 1, 1\">New Player Shop</> <RichColor Color=\"1, 1, 1, 1\">open the radial menu (Hold R on PC) (Hold X on Xbox) (Hold □ on PSN), select</> <RichColor Color=\"0, 0.65, 1, 1\">Simple Trade</> <RichColor Color=\"1, 1, 1, 1\">(stack of copper coins), then select</> <RichColor Color=\"0, 0.65, 1, 1\">Global Market</>.  <RichColor Color=\"1, 1, 1, 1\">Scroll to the </><RichColor Color=\"0, 0.65, 1, 1\">New Player Shop</><RichColor Color=\"1, 1, 1, 1\">, select the item you want to purchase, and then click</> <RichColor Color=\"0, 0.65, 1, 1\">Buy</>."
 					}
 				]
 			},
@@ -52,7 +45,7 @@ JSON
 				"content": [
 					{
 						"title": "CLUSTER NEWS",
-						"text": "<RichColor Color=\"1, 1, 0, 0.65\">Migration</>\r\n<RichColor Color=\"1, 1, 1, 1\">You must leave this server and move to</><RichColor Color=\"0, 0.65, 1, 1\">!Ark FTW-Scorched-1xXP/3xHarvest/1.25xTame/12xBreed</><RichColor Color=\"1, 1, 1, 1\">by Thursday, January 9 @ 12 PM Central.</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">For more information, visit the</> <RichColor Color=\"0, 0.65, 1, 1\">bulletin board</><RichColor Color=\"1, 1, 1, 1\"> channel on Discord</>"
+						"text": "<RichColor Color=\"1, 1, 0, 0.65\">No News</>\r\n<RichColor Color=\"1, 1, 1, 1\">No News </>"
 					},
 					{
 						"title": "<RichColor Color=\"0, 1, 1, 1\">ARKNAV</>",
@@ -71,7 +64,7 @@ JSON
 			{
 				"layout": 1,
 				"buttontext": "Settings",
-				"imageurl": "https://i.imgur.com/eZGo4EN.png",
+				"imageurl": "https://i.imgur.com/z36QHvY.png",
 				"content": [
 					{
 						"title": "",
@@ -117,33 +110,9 @@ JSON
 		"links": [
 			{
 				"text": "FTW Discord",
-				"url": ""
+				"url": "https://discord.gg/arkftw"
 			}
 		],
 		"version": 2
 	}
 }
-
-
-DO NOT USE DINO DEPOT TO CAPTURE ANY CREATURES
-See "News & Tips" for details
-Open the Information Panel
-The information panel contains important information, rules, settings, and the online players list.  To access the information panel, do the following
-Press F1 on PC
-Hold X on Xbox
-Hold □ on PSN
-
-<RichColor Color="1, 1, 0, 0.65">Dino Depot</>
-<RichColor Color="1, 1, 1, 1">Using the capture function of Dino Depot will likely result in server crashes, rollbacks, and loss.  DO NOT use this mod until you have been given the all-clear from the Admin Team.</>
-
-Extinction
-
-TRIBUTES
-
-
-TamingSpeedMultiplier=2.5
-HarvestAmountMultiplier=6.0
-XPMultiplier=2.0
-HarvestHealthMultiplier=6.0
-
-Dong Bettle
