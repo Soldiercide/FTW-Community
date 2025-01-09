@@ -1,0 +1,149 @@
+MOTD
+
+OPEN THE INFORMATION PANEL
+The information panel contains important information, rules, settings, and the online players list.  To access the information panel, do the following
+Press F1 on PC
+Hold X on Xbox
+Hold □ on PSN
+
+JSON
+
+
+{
+	"WBUI2":
+	{
+		"settings":
+		{
+			"openbutton": 0,
+			"hideicon": true,
+			"hideiconafter": 60,
+			"iconurl": "://i.imgur.com/OZ6xOjY.png",
+			"disableicontext": true,
+			"iconposition": 0,
+			"icontextcolor": 0,
+			"openonstart": true,
+			"openonstartonlynewplayers": false,
+			"updateinterval": 12
+		},
+		"tabs": [
+			{
+				"layout": 3,
+				"buttontext": "Start Here",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "WELCOME",
+						"text": "<RichColor Color=\"1, 1, 1, 1\">Howdy and welcome!</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">You can find everything you need to get started in this panel, which you can bring up at any time: (Press F1 on PC) (Hold X on Xbox) (Hold □ on PSN)</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">It's critical that you read through the information in this panel, particularly that---></>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">If you have any questions or need assistance, you can find us on Discord by typing discord into the game chat, clicking the link here in the panel (if you're on PC), or by using</> <RichColor Color=\"0, 0.5, 0.5, 1\">arkftw</> <RichColor Color=\"1, 1, 1, 1\">as your invite code on Discord</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">We're glad to have you with us and hope you've found a place you can call home!</>"
+					},
+					{
+						"title": "URGENT",
+						"text": "<RichColor Color=\"1, 1, 0, 0.65\">Structure and Dino Decay</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">Decay on this cluster is controlled by the </><RichColor Color=\"0, 0.65, 1, 1\">Massive Base Protection</> <RichColor Color=\"1, 1, 1, 1\">mod.  In order to safeguard your base, outpost, and water pen you must place</> <RichColor Color=\"0, 0.65, 1, 1\">Massive Base Protection Flags</> <RichColor Color=\"1, 1, 1, 1\">down at each.</>  <RichColor Color=\"1, 1, 1, 1\">If you do not, your structures and dinos will be</> <RichColor Color=\"0, 0.65, 1, 1\">wiped in 7 days</>.  <RichColor Color=\"1, 1, 1, 1\">MBP flags cost 1 fiber to craft.</>\r\n\r\n<RichColor Color=\"1, 1, 0, 0.65\">Base Location Tracking</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">In addition to the MBP flags, you must also place a single </><RichColor Color=\"0, 0.65, 1, 1\">Location Flag</> <RichColor Color=\"1, 1, 1, 1\">at your base, outpost, and water pen.  This information is displayed on live maps for each server found in the Cluster Info category on Discord.  It helps admins with server management and let's players find each other easier.  Location flags cost 1 fiber to craft.</>"
+					},
+					{
+						"title": "STARTER KITS",
+						"text": "<RichColor Color=\"1, 1, 1, 1\">You can acquire a starter kit by transferring over to</> <RichColor Color=\"0.65, 0, 1, 1\">!Ark FTW-Community Center</>.  <RichColor Color=\"1, 1, 1, 1\">Once there, do the following:</>\r\n\r\n     <RichColor Color=\"1, 1, 0, 0.65\">[PC]</>       <RichColor Color=\"1, 1, 0, 0.65\">[Xbox]</>      <RichColor Color=\"1, 1, 0, 0.65\">[PSN]</>\r\n<RichColor Color=\"1, 1, 1, 1\">Press F3</> | <RichColor Color=\"1, 1, 1, 1\">Press X</> | <RichColor Color=\"1, 1, 1, 1\">Press □</>\r\n\r\n"
+					}
+				]
+			},
+			{
+				"layout": 4,
+				"buttontext": "News & Tips",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "CLUSTER NEWS",
+						"text": "<RichColor Color=\"1, 1, 0, 0.65\">Migration</>\r\n<RichColor Color=\"1, 1, 1, 1\">You must leave this server and move to</><RichColor Color=\"0, 0.65, 1, 1\">!Ark FTW-Scorched-1xXP/3xHarvest/1.25xTame/12xBreed</><RichColor Color=\"1, 1, 1, 1\">by Thursday, January 9 @ 12 PM Central.</>\r\n\r\n<RichColor Color=\"1, 1, 1, 1\">For more information, visit the</> <RichColor Color=\"0, 0.65, 1, 1\">bulletin board</><RichColor Color=\"1, 1, 1, 1\"> channel on Discord</>"
+					},
+					{
+						"title": "<RichColor Color=\"0, 1, 1, 1\">ARKNAV</>",
+						"text": "<RichColor Color=\"1, 1, 1, 1\">You may have noticed the HUD elements sitting over your chat box.  To configure these elements, or remove them, do the following:</>\r\n\r\n<RichColor Color=\"1, 1, 0, 0.65\">[PC]</>\r\n<RichColor Color=\"1, 1, 1, 1\">Press alt+M</>\r\n\r\n<RichColor Color=\"1, 1, 0, 0.65\">[Console]</>\r\n<RichColor Color=\"1, 1, 1, 1\">Craft the Arknav Configurator and pull the trigger.</>"
+					},
+					{
+						"title": "MOD INFORMATION",
+						"text": "<RichColor Color=\"1, 1, 1, 1\">A full list of added mods can be found on Discord in the Beach Bob category.  Videos of how to use each mod are being added regularly.</>"
+					},
+					{
+						"title": "<RichColor Color=\"0, 1, 0, 1\">AUTO RUNNER</>",
+						"text": "<RichColor Color=\"1, 1, 1, 1\">To configure auto-sprint, do the following:</>\r\n\r\n<RichColor Color=\"1, 1, 0, 0.65\">[PC]</>\r\n<RichColor Color=\"1, 1, 1, 1\">Hold R and select the green dino</>\r\n\r\n<RichColor Color=\"1, 1, 0, 0.65\">[Console]</>\r\n<RichColor Color=\"1, 1, 1, 1\">Hold X on Xbox and □ on Playstation then select the green dino</> "
+					}
+				]
+			},
+			{
+				"layout": 1,
+				"buttontext": "Settings",
+				"imageurl": "https://i.imgur.com/eZGo4EN.png",
+				"content": [
+					{
+						"title": "",
+						"text": ""
+					}
+				]
+			},
+			{
+				"layout": 3,
+				"buttontext": "Rules",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "Bases, Outposts, and Water Pens",
+						"text": "You are permitted to have one of the following and must place both MBP and Location Flags at each:\r\n\r\n[Base]\r\n- 1 per server\r\n - must fit within MBP Large Flag bubble\r\n\r\n[Outpost]\r\n-1 per server\r\n - must fit withing MBP Small Flag bubble\r\n\r\n[Water Pen]\r\n-1 per server\r\n - must fit within MBP Small Flag bubble\r\n\r\nAny structure not covered by a bubble will be auto-destroyed in 7 days.\r\n\r\nFor a full list of building and other rules, visit the Cluster Info category on Discord."
+					},
+					{
+						"title": "Dinos",
+						"text": "You may not do any of the following:\r\n\r\n- Leave dinos in caves, obelisks, or mission areas\r\n- Leave carnivores on agrressive-wander unattended\r\n- Leave dinos at other players bases\r\n- Block land or water routes with abandoned dinos\r\n\r\nAbandoned dinos will be taken to the Impound Lot at the Community Center.  "
+					},
+					{
+						"title": "Griefing",
+						"text": "You may not do any of the following:\r\n\r\n- Pick players up who are not in your tribe\r\n- Kite dinosaurs of any kind to other players or their bases\r\n- Cause damage to other players, their dinos, or their bases\r\n- Take any item or dino that doesn't belong to you\r\n- Interfere with cave, boss, or mission runs\r\n\r\nEngaging in any of these behaviors may result in an immediate ban."
+					},
+					{
+						"title": "",
+						"text": ""
+					}
+				]
+			},
+			{
+				"layout": 1,
+				"buttontext": "Online Players",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "",
+						"text": "{playerlist}"
+					}
+				]
+			}
+		],
+		"links": [
+			{
+				"text": "FTW Discord",
+				"url": ""
+			}
+		],
+		"version": 2
+	}
+}
+
+
+DO NOT USE DINO DEPOT TO CAPTURE ANY CREATURES
+See "News & Tips" for details
+Open the Information Panel
+The information panel contains important information, rules, settings, and the online players list.  To access the information panel, do the following
+Press F1 on PC
+Hold X on Xbox
+Hold □ on PSN
+
+<RichColor Color="1, 1, 0, 0.65">Dino Depot</>
+<RichColor Color="1, 1, 1, 1">Using the capture function of Dino Depot will likely result in server crashes, rollbacks, and loss.  DO NOT use this mod until you have been given the all-clear from the Admin Team.</>
+
+Extinction
+
+TRIBUTES
+
+
+TamingSpeedMultiplier=2.5
+HarvestAmountMultiplier=6.0
+XPMultiplier=2.0
+HarvestHealthMultiplier=6.0
+
+Dong Bettle
